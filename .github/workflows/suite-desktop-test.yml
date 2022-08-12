@@ -17,7 +17,7 @@ on: push
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         # todo: we probably don't need matrix for node versions, keeping it here for reference as I will need matrix of
